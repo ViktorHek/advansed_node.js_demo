@@ -13,6 +13,7 @@
     "database": "books_test",
     "host": "127.0.0.1",
     "dialect": "postgres",
-    "operatorAliases": false
+    "operatorAliases": false,
+    "logging": false
   }
 }

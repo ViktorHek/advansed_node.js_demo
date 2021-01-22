@@ -29,12 +29,12 @@ describe('GET /books', () => {
     const expectedResponse = {
       books: [
         {
-          title: 'Game of tron', 
-          author: 'George RR'
+          title: 'Game of Tron', 
+          author: {name: 'George RR'}
         },
         {
-          title: 'Game of tron 2', 
-          author: 'Reorge GG'
+          title: 'Game of Tron 2', 
+          author: {name: 'George RR'}
         }
       ]
     }

@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "nodemon --inspect ./bin/www",
-    "test": "mocha --recursive --exit specs/requests"
+    "test": "NODE_ENV=test NODE_NO_WARNINGS=1 mocha --recursive --exit specs/requests"
   },
   "dependencies": {
     "body-parser": "~1.13.2",
